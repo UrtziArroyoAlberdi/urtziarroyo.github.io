@@ -1,0 +1,139 @@
+:root {  
+	--logotipo: #1a1a1a;
+	--profesion: #f2f2f2;
+	--primario: #2e5fff;
+	--secundario: #7f828b;
+}
+
+/** {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body {
+	font-family: 'Bebas Neue', cursive;
+	background-image: url('./../img/B-G.jpg');
+
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	outline: none;
+}*/
+
+
+
+.logotipo {
+	padding: 10px;
+	border: 5px solid var(--logotipo);
+	color: var(--logotipo);
+}
+.logotipo .subtitulo {
+	text-align: center;
+	color: var(--profesion);
+	background: var(--logotipo);
+	padding: 12px 20px;
+	transition: .5s ease all;
+	font-size: 36px;
+	font-family: 'Noto Sans', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.logotipo .subtitulo:hover {
+	background: var(--secundario);
+}
+
+.texto-animado {
+	color: var(--logotipo);
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.texto-animado > div {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	transition: .3s ease all;
+}
+
+.texto-animado > div.animacion {
+	transform: translateY(-100px);
+}
+
+.texto-animado > div span {
+	font-size: 35px;
+	font-weight: normal;
+	line-height: 60px;	
+}
+
+.texto-animado .segunda-linea {
+	position: absolute;
+	top: 100px ;
+}
+/*
+main > table {
+	border: 10px solid var(--logotipo);
+	padding: 10px;
+	text-align: center;
+}
+
+main > table > tr {
+	padding: 5px;
+}
+.denda {
+	margin-top: 30px;
+	margin-left: -840px;
+}
+.kontaktua {
+	margin-top: -120px; 
+}
+.denda1 {
+	margin-left: -300px;
+}
+.hasiera {
+	margin-top: -130px;
+}
+.denda2 {
+	margin-top: 30px;
+	margin-left: -250px;
+}
+.katalogoa {
+	margin-top: -130px;
+}
+.imagenes {
+	display: inline;
+	margin-left: 110px;
+}
+.h2 {
+	margin-left: 140px;
+}
+.Sare_Sozialak {
+	margin-top: 500px;
+}
+.h2_1 {
+	margin-left: 90px;
+}
+.imagenes_1 {
+	display: inline;
+	margin-left: 60px;
+}
+.h2_2 {
+	margin-left: 0px;
+}
+.imagenes_2 {
+	display: inline;
+	margin-left: -30px;
+}
+.header {
+	display: inline;
+}
+footer{
+	padding: 10px; 
+} 
+
+
+
