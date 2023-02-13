@@ -251,13 +251,14 @@
 		gap: 15px;
 	}
 	.parrafoa{
-		width: 100%;
-		margin: auto;
-		display: inline;
+		display: flex;
+		margin-left: 225px;
+		margin-bottom: 7px;
 	}
 	.parrafoa2{
-		width: 100%;
-		margin: auto;
+		display: flex;
+		margin-left: 180px;
+		align-items: center;
 	}
 	nav{
        height: 55px;
