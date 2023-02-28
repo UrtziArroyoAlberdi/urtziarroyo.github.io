@@ -26,24 +26,27 @@
 			<ul class="form-style-1">
 			    <li><label>Izen Abizena <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="Izena" /> <input type="text" name="field2" class="field-divided" placeholder="Abizena" /></li>
 			    <li>
-			        <label> <span class="required">*</span></label>
-			        <input placeholder="Adib: proba@proba.com" type="text" name="field3" class="field-long" />
+			        <label>Mota <span class="required">*</span></label>
+			        <select name="field3" class="field-divided">
+			        	<option>Visa</option>
+			        	<option>MasterCard</option>
+			        </select>
 			    </li>
 			    <li>
-			        <label>Helbidea <span class="required">*</span></label>
+			        <label>Titularra <span class="required">*</span></label>
 			        <input type="text" name="field4" class="field-long" />
 			    </li>
 			    <li>
-			        <label>Herria <span class="required">*</span></label>
+			        <label>Zenbakia <span class="required">*</span></label>
 			        <input type="text" name="field5" class="field-long" />
 			    </li>
 			    <li>
-			        <label>Posta-kodea <span class="required">*</span></label>
-			        <input placeholder="Adib: 48220" type="text" name="field6" class="field-divided" />
+			        <label>Iraungitze data <span class="required">*</span></label>
+			        <input type="text" placeholder="**/****" name="field7" class="field-divided"/>
 			    </li>
 			    <li>
-			        <label>Probintzia <span class="required">*</span></label>
-			        <input type="date" name="field7" class="field-long" onchange="obtenerFecha(this)" />
+			        <label>CVC <span class="required">*</span></label>
+			        <input placeholder="Adib: 450" type="text" name="field6" class="field-divided" />
 			    </li>
 			</ul>
 		</form>
@@ -54,13 +57,5 @@
 	</footer>
 	<script src="js/app.js"></script>
 	<script src="js/main.js"></script>
-	<script>
-		function obtenerFecha(e)
-		{
-			var fecha = moment(e.value);
-			console.log("Fecha original:" + e.value);
-			console.log("Fecha formateada es: " + fecha.format("DD/MM"));
-		}
-	</script>
 </body>
 </html>
