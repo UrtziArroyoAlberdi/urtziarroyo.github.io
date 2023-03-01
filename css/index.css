@@ -492,6 +492,7 @@
 		border: 2px solid black;
 		margin: auto;
 	}
+	/*
 	#hamnav {
 	  width: 100%;
 	  background: #000;
@@ -507,11 +508,11 @@
 	}
 	#hamitems a:hover { background: #af0d0d; }
 
-	/* (C) HIDE HAMBURGER */
+	 (C) HIDE HAMBURGER 
 	#hamnav label, #hamburger { display: none; }
-	/* [ON SMALL SCREENS] */
+	 [ON SMALL SCREENS] 
 @media screen and (max-width: 768px){
-  /* (A) BREAK INTO VERTICAL MENU */
+   (A) BREAK INTO VERTICAL MENU 
   #hamitems a {
     box-sizing: border-box;
     display: block;
@@ -519,7 +520,7 @@
     border-top: 1px solid #333;
   }
  
-  /* (B) SHOW HAMBURGER ICON */
+   (B) SHOW HAMBURGER ICON 
   #hamnav label { 
     display: inline-block; 
     color: white;
@@ -529,10 +530,12 @@
     padding: 10px;
   }
 
-  /* (C) TOGGLE SHOW/HIDE MENU */
+   (C) TOGGLE SHOW/HIDE MENU 
   #hamitems { display: none; }
   #hamnav input:checked ~ #hamitems { display: block; }
-}
+}*/
 .textua{
 	position: absolute;
+	margin-top: 0px;
+	margin-left: 20px; 
 }
