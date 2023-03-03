@@ -149,7 +149,23 @@
 		.container{
 			display: block;
 		}
+		.header {
+			max-width: 100%;
+		}
+		.navigator {
+			max-width: 100%;
+		}
+		.content {
+			max-width: 100%;
+		}
+		.content2 {
+			max-width: 100%;
+		}
+		.footer {
+			max-width: 100%;
+		}
 	}
+
 	.nav2{
 		border: 1px;
 		border-style: groove;
