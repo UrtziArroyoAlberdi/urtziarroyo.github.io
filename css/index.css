@@ -144,6 +144,12 @@
 		grid-column: 1 / all;
 		grid-row: 5;
 	}
+	@media(max-width: 1000px)
+	{
+		.container{
+			display: block;
+		}
+	}
 	.nav2{
 		border: 1px;
 		border-style: groove;
